@@ -20,7 +20,7 @@ public class OpenTSDBDataingestApp {
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
         try {
             httpClient = HttpClientBuilder.create().build();
-            HttpPost request = new HttpPost(ConfigParams.OpenTSDBURL);
+            HttpPost request = new HttpPost(ConfigParams.openTSDBURL);
 
 
             //  StringEntity  urlParameters = new StringEntity ("{\"metric\":\"nayeem.test\",\"timestamp\":\"" + System.currentTimeMillis() + "\", \"value\": \"42\", \"tags\": { \"host\": \"chrisedwards\", \"dc\": \"lga\" }}");
