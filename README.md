@@ -32,7 +32,7 @@ G).Start Spark Streaming Application using below command.
 
 Here job is successfully processing Streaming data.
 
-Launch OpenTSDB webui to monitor the graph by choosing from and to ranges dates with metric names.
+Launch OpenTSDB webui to monitor the graph by choosing from and to ranges dates with metric names  like BYTESIN, BYTESOUT, SERVUSEDSIZEMB , MEMORYUSED, CPUSYSTEM , CPUUSER , PKTSIN , PKTSOUT .
 ```
 http://10.10.75.35:4242/
 ```
